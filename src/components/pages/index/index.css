@@ -1,0 +1,65 @@
+.header{
+    width:100vw;
+    height:80px;
+    background:#fff;
+    position:fixed;
+    z-index:999;
+    box-shadow: 0 5px 5px rgba(0,0,0,.02);
+    padding:0 10px;
+}
+.header .img{
+    padding-top:20px;
+    height:55px;
+    margin-right: 2rem
+}
+.nav{
+    padding-top:80px;
+    font-size:.3rem;
+    display: flex;
+    background:#fff;
+}
+.header .xiazai{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    font-weight: bold;
+    width:1.5rem;
+    height:.4rem;
+    text-align: center;
+    font-size:.25rem;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: .2rem;
+    line-height:.4rem;
+}
+.nav a{
+    flex:1;
+    display: inline-block;
+    height:.6rem;
+    line-height:.6rem;
+    text-align: center;
+}
+.nav .select{
+    border-bottom:2px solid #31c27c;
+    color:#31c27c;
+}
+.bottom_bar{
+    position: fixed;
+    bottom:0;
+    left:0;
+    height:80px;
+    line-height: 60px;
+    background:rgba(255,255,255,.9);
+    padding: 15px 0;
+    width:100%;
+    text-align: center;
+}
+.bottom_bar .more{
+    display: inline-block;
+    background:#30c27c;
+    font-size:.25rem;
+    color:#fff;
+    height:.5rem;
+    line-height: .3rem;
+    padding:.1rem;
+    border-radius:.5rem;
+}

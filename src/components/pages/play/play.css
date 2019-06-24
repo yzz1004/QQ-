@@ -1,0 +1,133 @@
+
+.play {
+    height: 1.4rem;
+    background: #fff;
+    position: relative;
+    margin: 0;
+    padding: .2rem;
+}
+
+.play .img {
+    height: 1.4rem;
+    position: absolute;
+    top: 0;
+    left: .2rem;
+    padding: .2rem .2rem .2rem .8rem
+}
+
+.play .title {
+    font-size: .3rem;
+    color: #000;
+    font-weight: bold;
+    margin-top: .37rem;
+    margin-left: 2rem;
+}
+
+.back {
+    position: absolute;
+    font-size: .3rem;
+    top: .6rem;
+    left: .1rem;
+}
+
+.song_info {
+    position: relative;
+    text-align: center;
+}
+.song_cont{
+    padding-top:.4rem;
+}
+.song_info .song_info_tit {
+    font-size: .32rem;
+    color: #000;
+    margin-top: .4rem;
+    margin-bottom: .2rem;
+}
+
+.song_info .song_info_singer {
+    font-size: .23rem;
+}
+
+.lyric_bd {
+    position: relative;
+    overflow: auto;
+    height: 2.5rem;
+    mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #fff 25%, #fff 75%, rgba(0, 0, 0, 0));
+}
+.lyric_scroll{
+    position: absolute;
+    width:100%;
+    transition:top .4s
+}
+.lyric_scroll p{
+    font-size: .26rem;
+    color: #000;
+    line-height: 2;
+    height: .5rem;
+}
+.lyric_bd .lyric_scroll .select{
+    color:#31c27c;
+    transition: all 0.4s;
+}
+.chakan_more p{
+    font-size:.26rem;
+    color:#000;
+    margin-top:.5rem;
+}
+
+.bofang_qi{
+    position: relative;
+    padding-top:.6rem;
+    padding-bottom: .6rem;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+}
+.bofang_qi .mv{
+    position: absolute;
+    left:1.5rem;
+    font-size: .2rem;
+    border: .05rem solid rgba(0,0,0,.65);
+    padding:.16rem .1rem;
+    border-radius: 50%;
+    color: rgba(0,0,0,.65);
+    font-weight: bold;
+}
+/* .bofang_qi .bofang{
+    position: absolute;
+} */
+.bofang_qi .bofang,.zanting{
+    font-size:.6rem;
+}
+.bofang_qi .heart{
+    position: absolute;
+    right:1.5rem;
+    font-size: .3rem;
+    border: .05rem solid rgba(0,0,0,.65);
+    padding: .1rem;
+    border-radius: 50%;
+    color: rgba(0,0,0,.65);
+    font-weight: bold;
+}
+.bg img {
+    background-size: 100%;
+    opacity: .06;
+    position: absolute;
+    width: 100%;
+    top: 1.4rem;
+    z-index:-1;
+}
+.down_song{
+    height:3.1rem;
+    background:#fff;
+    font-size:.3rem;
+    text-align: center;
+}
+.down_song a{
+    display:inline-block;
+    background:#31c27c;
+    color:#fff;
+    text-align: center;
+    height:.7rem;
+    width:4rem;
+    line-height: .7rem;
+    border-radius: .5rem;
+}

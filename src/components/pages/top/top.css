@@ -1,0 +1,48 @@
+.mod_topic {
+    margin: 10px;
+    margin-bottom: 90px;
+}
+
+.mod_topic .topic_main {
+    position: relative;
+    display: flex;
+    height: 1.77rem;
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: .2rem;
+}
+
+.mod_topic .img {
+    width: 1.77rem;
+}
+
+.mod_topic .font {
+    position: absolute;
+    left: 5px;
+    color: rgba(255, 255, 255, .7);
+    bottom: 8px;
+}
+
+.mod_topic .topic_info {
+    overflow: hidden;
+    flex: 1;
+    margin-left: 15px;
+}
+.mod_topic .title{
+    margin-top:.1rem;
+    font-size:.3rem;
+    margin-bottom: .14rem;
+}
+.mod_topic .topic_info p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size:.25rem;
+    line-height:.4rem;
+    width:95%
+}
+.mod_topic .topic_info p span{
+    color:#000;
+    margin-left:.15rem;
+    margin-right:.1rem;
+}
